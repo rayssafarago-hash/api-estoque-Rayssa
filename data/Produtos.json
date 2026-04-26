@@ -1,8 +1,14 @@
 [
   {
     "id": 1,
-    "nome": "vestido",
+    "nome": "Vestido",
     "preco": 200,
+    "categoriaId": 1
+  },
+  {
+    "id": 2,
+    "nome": "1",
+    "preco": 1,
     "categoriaId": 1
   }
 ]

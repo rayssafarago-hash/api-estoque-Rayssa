@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lojinha</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Lojinha</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Minha Lojinha</h1>
+<div class="container">
+  <h1>Minha Lojinha</h1>
 
-<input id="nome" placeholder="Nome">
-<input id="preco" placeholder="Preço">
-<input id="categoria" placeholder="Categoria">
+  <input id="nome" placeholder="Nome">
+  <input id="preco" placeholder="Preço">
+  <input id="categoria" placeholder="Categoria">
 
-<button onclick="criar()">Cadastrar</button>
+  <button onclick="criar()">Cadastrar</button>
 
-<ul id="lista"></ul>
+  <hr>
+
+  <input id="buscarId" placeholder="Buscar por ID">
+  <button onclick="buscarPorId()">Buscar</button>
+
+  <ul id="lista"></ul>
+</div>
 
 <script src="app.js"></script>
 </body>
