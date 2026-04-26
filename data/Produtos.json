@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": 1,
+    "nome": "vestido",
+    "preco": 200,
+    "categoriaId": 1
+  }
+]
